@@ -1,0 +1,5 @@
+<header th:fragment="topbar" class="topbar">
+  <button class="icon-button d-lg-none" id="menuToggle"><i class="bi bi-list"></i></button>
+  <div class="breadcrumb-wrap"><span class="eyebrow">OPERATIONS CENTER</span><h1 th:text="${pageTitle ?: 'Dashboard'}">Dashboard</h1></div>
+  <div class="top-actions"><button class="icon-button" id="themeToggle" title="Toggle theme"><i class="bi bi-moon-stars"></i></button><div class="profile"><div class="avatar" th:text="${#strings.substring(#authentication.name,0,1).toUpperCase()}">A</div><div class="profile-copy"><strong th:text="${#authentication.name}">admin</strong><small th:text="${#strings.replace(#authentication.authorities[0].authority,'ROLE_','')}">ADMIN</small></div></div></div>
+</header>
