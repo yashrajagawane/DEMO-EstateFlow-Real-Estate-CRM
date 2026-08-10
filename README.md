@@ -538,13 +538,6 @@ This project is licensed under the MIT License.
 
 **Yashraj Agawane**
 
-B.Tech Information Technology
-
-Full Stack & AI Developer
-
-GitHub:
-https://github.com/yashrajagawane
-
 ---
 
 ## ⭐ If you found this project helpful, don't forget to star the repository!
