@@ -27,10 +27,7 @@ It includes role-based authentication, interactive dashboards, reporting modules
 - Switching to MySQL
 - Environment Variables
 - Security
-- REST Architecture
-- Future Enhancements
-- Contributing
-- License
+
 
 ---
 
