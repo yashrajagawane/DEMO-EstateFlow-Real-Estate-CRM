@@ -1,11 +1,9 @@
 # 🏢 EstateFlow - Real Estate CRM System
-
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.3.2-brightgreen)
 ![Maven](https://img.shields.io/badge/Maven-3.9-blue)
 ![Database](https://img.shields.io/badge/Database-H2%20%7C%20MySQL-blueviolet)
 ![License](https://img.shields.io/badge/License-MIT-green)
-
 EstateFlow is a **full-featured Real Estate Customer Relationship Management (CRM) System** built using **Spring Boot 3**, **Spring Security**, **Spring Data JPA**, **Hibernate**, **Thymeleaf**, and **Java 17**.
 
 The application is designed to streamline real estate business operations by providing a centralized platform to manage customers, properties, employees, sales, bookings, payments, finance, vendors, documents, and support activities.
