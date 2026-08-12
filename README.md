@@ -4,9 +4,9 @@
 ![Maven](https://img.shields.io/badge/Maven-3.9-blue)
 ![Database](https://img.shields.io/badge/Database-H2%20%7C%20MySQL-blueviolet)
 ![License](https://img.shields.io/badge/License-MIT-green)
-EstateFlow is a **full-featured Real Estate Customer Relationship Management (CRM) System** built using **Spring Boot 3**, **Spring Security**, **Spring Data JPA**, **Hibernate**, **Thymeleaf**, and **Java 17**.
+EstateFlow is a **full-featured Real Estate Customer Relationship Management (CRM) System** built using **Spring Boot 3**, **Spring Security**, **Spring Data JPA**, **Hibernate**, **Thymeleaf**, and **Bootstrap 5**.
 
-The application is designed to streamline real estate business operations by providing a centralized platform to manage customers, properties, employees, sales, bookings, payments, finance, vendors, documents, and support activities.
+The application is designed to streamline real estate business operations by providing a centralized platform to manage customers, properties, employees, sales, bookings, payments, finance, vendors, documents, and support tickets.
 
 It includes role-based authentication, interactive dashboards, reporting modules, secure login, responsive UI, and enterprise-grade architecture.
 
@@ -27,6 +27,7 @@ It includes role-based authentication, interactive dashboards, reporting modules
 - Switching to MySQL
 - Environment Variables
 - Security
+- Changelog
 
 
 ---
@@ -506,6 +507,24 @@ The application can be deployed on
 - Mobile Application
 - PDF Invoice Generation
 - REST API Version
+
+---
+
+# 📋 Changelog
+
+## [Latest] - 2026-08-12
+
+### Added
+- Enhanced documentation with comprehensive feature descriptions
+- Daily update tracking system to the README
+
+### Improved
+- Updated project documentation for better clarity
+- Added changelog section to track updates
+
+### Documentation
+- Updated Table of Contents with Changelog link
+- Maintained all existing features and modules documentation
 
 ---
 
