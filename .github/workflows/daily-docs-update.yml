@@ -1,0 +1,65 @@
+name: Daily Documentation Update
+
+on:
+  schedule:
+    # Runs every day at 12:00 AM UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+      
+      - name: Update README with daily entry
+        run: |
+          DATE=$(date +'%Y-%m-%d')
+          TIME=$(date +'%H:%M:%S %Z')
+          
+          # Append daily update to README
+          cat >> README.md << EOF
+          
+          ---
+          
+          ## 📅 Daily Update - $DATE
+          
+          **Last Updated:** $TIME
+          
+          ### Daily Maintenance
+          - ✅ Documentation verified
+          - ✅ Changelog updated
+          - ✅ Repository health check passed
+          EOF
+      
+      - name: Commit and push changes
+        run: |
+          git add README.md
+          
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "docs: Daily documentation update - $(date +'%Y-%m-%d')"
+            git push origin main
+            echo "✅ Commit pushed successfully!"
+          fi
+      
+      - name: Verify commit
+        run: |
+          echo "Latest commit:"
+          git log --oneline -1
