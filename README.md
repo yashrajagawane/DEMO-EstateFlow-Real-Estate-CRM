@@ -82,7 +82,6 @@ Interactive dashboard with
 ### Property Management
 
 Manage
-
 - Residential Properties
 - Commercial Properties
 - Available Properties
