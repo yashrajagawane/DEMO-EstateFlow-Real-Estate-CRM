@@ -12,9 +12,7 @@ It includes role-based authentication, interactive dashboards, reporting modules
 
 ---
 
-
 # 📑 Table of Contents
-
 - Features
 - Technology Stack
 - Project Architecture
