@@ -24,11 +24,6 @@ It includes role-based authentication, interactive dashboards, reporting modules
 - Running the Application
 - Demo Accounts
 - Switching to MySQL
-- Environment Variables
-- Security
-- Changelog
-
-
 ---
 
 # ✨ Features
