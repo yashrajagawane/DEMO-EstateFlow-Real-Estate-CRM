@@ -10,8 +10,6 @@ The application is designed to streamline real estate business operations by pro
 
 It includes role-based authentication, interactive dashboards, reporting modules, secure login, responsive UI, and enterprise-grade architecture.
 
-
-
 # 📑 Table of Contents
 - Features
 - Technology Stack
