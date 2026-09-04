@@ -24,6 +24,7 @@ It includes role-based authentication, interactive dashboards, reporting modules
 - Switching to MySQL
 ---
 
+
 # ✨ Features
 
 EstateFlow provides a complete CRM solution for real estate companies.
